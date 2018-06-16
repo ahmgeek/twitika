@@ -1,0 +1,12 @@
+<main role="main">
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading"><a href="/">Search Tweets</a></h1>
+
+        <%= form_tag(search_path, method: :get, id: "search-form")%>
+        <%= text_field_tag :search, params[:search], placeholder: "Search Posts", class:"form-control" %>
+        <%= submit_tag "Search", class: "btn btn-primary my-2 btn-lg" %>
+
+    </div>
+  </section>
+</main>
