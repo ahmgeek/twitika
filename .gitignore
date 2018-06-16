@@ -8,29 +8,29 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+/rails/db/*.sqlite3
+/rails/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
+/rails/log/*
+/rails/tmp/*
+/roda/log/*
 !/log/.keep
 !/tmp/.keep
 
 # Ignore uploaded files in development
-/storage/*
+/rails/storage/*
 
-/node_modules
-/yarn-error.log
+/rails/yarn-error.log
 
-/public/assets
+/rails/public/assets
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
-/public/packs
-/public/packs-test
+/rails/config/master.key
+/rails/public/packs
+/rails/public/packs-test
 /rails/node_modules
-yarn-debug.log*
-.yarn-integrity
+/rails/yarn-debug.log*
+/rails/.yarn-integrity
 .env

@@ -49,4 +49,11 @@ a `Constant` which is used for fetching the tweets.
 > Most of the frontend tricks inspired and taken from [evilmartians](http://evilmartians.com/)
 
 
-# Syro
+# Roda
+
+Another `Roda` app is placed in it's own directory, performing same job, searching for tweets.
+
+### Run
+
+  * `bundle`
+  * `puma -p 3000`
