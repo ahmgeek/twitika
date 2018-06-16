@@ -43,3 +43,5 @@ for such small project.
 
 The client initialization happens inside `config/initializers/twitter.rb` and assigned to
 a `Constant` which is used for fetching the tweets.
+
+> Most of the frontend tricks inspired and taken from [evilmartians](http://evilmartians.com/)
