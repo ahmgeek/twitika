@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+gem 'rack_csrf'
+gem 'tilt', '>= 2'
+gem 'erubi'
+gem 'roda'
+gem 'rack-unreloader'
+gem 'rack-cors'
+gem 'forme'
+
+gem 'minitest', '>= 5.7.0'
+gem 'minitest-hooks', '>= 1.1.0'
+
+gem 'puma'
+gem 'twitter'
+
+group :development do
+  gem 'byebug'
+end
